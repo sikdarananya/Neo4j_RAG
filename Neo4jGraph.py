@@ -64,18 +64,18 @@ logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 # In[22]:
 
 
-api_key = "3289261e6cc84fa8aef58d38e2264fa9"
+api_key = 
 openai.api_key = api_key
-openai.api_base = 'https://openai-demo-mb-001.openai.azure.com/'
+openai.api_base = 
 openai.api_type = 'azure'
 openai.api_version = '2023-05-15'
-deployment_name = 'openaidemomb001'
-deployment_name_embeddings = 'openaidemomb002'
+deployment_name = 
+deployment_name_embeddings = 
 
 os.environ["OPENAI_API_TYPE"] = openai.api_type
 os.environ["OPENAI_API_VERSION"] = openai.api_version
 os.environ["OPENAI_OPENAI_BASE"] = openai.api_base
-os.environ["OPENAI_API_KEY"] = "3289261e6cc84fa8aef58d38e2264fa9"
+os.environ["OPENAI_API_KEY"] = 
 
 
 # In[23]:
@@ -116,11 +116,11 @@ embed_model = embedding_llm,
 # In[26]:
 
 
-username = "neo4j"
-password = "AyN7ybIusHSm8PKpU1K2N80Gsfu1tytd3HtRMPxFKDg"
-url = "neo4j+s://dc9b32df.databases.neo4j.io"
+username = 
+password = 
+url = 
 embed_dim = 1536
-database = "neo4j"
+database =
 
 
 # In[27]:
